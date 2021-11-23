@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/beb70cc362a9d99487472c7e1eab8e79/core-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/beb70cc362a9d99487472c7e1eab8e79/core-runtime-2.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/beb70cc362a9d99487472c7e1eab8e79/core-runtime-2.1.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/beb70cc362a9d99487472c7e1eab8e79/core-runtime-2.1.0/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/beb70cc362a9d99487472c7e1eab8e79/core-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/beb70cc362a9d99487472c7e1eab8e79/core-runtime-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/ebe553152a4993ed112b615400d43124/transformed/core-runtime-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/ebe553152a4993ed112b615400d43124/transformed/core-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/ebe553152a4993ed112b615400d43124/transformed/core-runtime-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.1.0/f19886651c9946b39f83d8c184fd0e2ce9f43c16/core-runtime-2.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.1.0/f19886651c9946b39f83d8c184fd0e2ce9f43c16/core-runtime-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

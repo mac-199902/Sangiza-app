@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/e2c9e41ec7c5b7957a43d7aca71160b3/jetified-activity-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/e2c9e41ec7c5b7957a43d7aca71160b3/jetified-activity-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/e2c9e41ec7c5b7957a43d7aca71160b3/jetified-activity-1.1.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/e2c9e41ec7c5b7957a43d7aca71160b3/jetified-activity-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/e2c9e41ec7c5b7957a43d7aca71160b3/jetified-activity-1.1.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/e2c9e41ec7c5b7957a43d7aca71160b3/jetified-activity-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/be4fd6ed12d04656f36ca37fff62f9cf/transformed/jetified-activity-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/be4fd6ed12d04656f36ca37fff62f9cf/transformed/jetified-activity-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/be4fd6ed12d04656f36ca37fff62f9cf/transformed/jetified-activity-1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/modules-2/files-2.1/androidx.activity/activity/1.1.0/4ee68d89e86e4d40bd44c0e2efe7e63716320932/activity-1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/modules-2/files-2.1/androidx.activity/activity/1.1.0/4ee68d89e86e4d40bd44c0e2efe7e63716320932/activity-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

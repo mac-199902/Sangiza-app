@@ -1,0 +1,700 @@
+com/abc/Sangiza/util/AddressedInterface.java
+ com.abc.Sangiza.util.AddressedInterface
+com/abc/Sangiza/model/WritablePathObject.java
+ com.abc.Sangiza.model.WritablePathObject
+com/abc/Sangiza/util/DetachListener.java
+ com.abc.Sangiza.util.DetachListener
+com/abc/Sangiza/model/TransferInstance.java
+ com.abc.Sangiza.model.TransferInstance
+ com.abc.Sangiza.model.TransferInstance$1
+ com.abc.Sangiza.model.TransferInstance$Builder
+com/abc/Sangiza/widget/PaddingItemDecoration.java
+ com.abc.Sangiza.widget.PaddingItemDecoration
+com/abc/Sangiza/util/PreferenceUtils.java
+ com.abc.Sangiza.util.PreferenceUtils
+com/abc/Sangiza/widget/GalleryGroupEditableListAdapter.java
+ com.abc.Sangiza.widget.GalleryGroupEditableListAdapter
+ com.abc.Sangiza.widget.GalleryGroupEditableListAdapter$GalleryGroupShareable
+com/abc/Sangiza/dialog/RemoveDeviceDialog.java
+ com.abc.Sangiza.dialog.RemoveDeviceDialog
+ com.abc.Sangiza.dialog.RemoveDeviceDialog$1
+com/abc/Sangiza/dialog/WebShareDetailsDialog.java
+ com.abc.Sangiza.dialog.WebShareDetailsDialog
+com/abc/Sangiza/dialog/ToggleMultipleTransferDialog.java
+ com.abc.Sangiza.dialog.ToggleMultipleTransferDialog
+ com.abc.Sangiza.dialog.ToggleMultipleTransferDialog$1
+ com.abc.Sangiza.dialog.ToggleMultipleTransferDialog$2
+ com.abc.Sangiza.dialog.ToggleMultipleTransferDialog$3
+ com.abc.Sangiza.dialog.ToggleMultipleTransferDialog$ActiveListAdapter
+com/abc/Sangiza/fragment/TransferAssigneeListFragment.java
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$1
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$2
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$3
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$4
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$4$1
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$4$1$1
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$4$1$1$1
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$4$1$1$1$1
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$4$1$1$2
+ com.abc.Sangiza.fragment.TransferAssigneeListFragment$5
+com/abc/Sangiza/fragment/HistoryFragment.java
+ com.abc.Sangiza.fragment.HistoryFragment
+ com.abc.Sangiza.fragment.HistoryFragment$1
+com/abc/Sangiza/receiver/DialogEventReceiver.java
+ com.abc.Sangiza.receiver.DialogEventReceiver
+ com.abc.Sangiza.receiver.DialogEventReceiver$1
+ com.abc.Sangiza.receiver.DialogEventReceiver$2
+com/abc/Sangiza/service/DeviceChooserService.java
+ com.abc.Sangiza.service.DeviceChooserService
+com/abc/Sangiza/util/TransferUtils.java
+ com.abc.Sangiza.util.TransferUtils
+ com.abc.Sangiza.util.TransferUtils$1
+ com.abc.Sangiza.util.TransferUtils$2
+ com.abc.Sangiza.util.TransferUtils$3
+ com.abc.Sangiza.util.TransferUtils$4
+ com.abc.Sangiza.util.TransferUtils$4$1
+ com.abc.Sangiza.util.TransferUtils$4$2
+ com.abc.Sangiza.util.TransferUtils$4$2$1
+ com.abc.Sangiza.util.TransferUtils$4$3
+ com.abc.Sangiza.util.TransferUtils$4$3$1
+ com.abc.Sangiza.util.TransferUtils$5
+ com.abc.Sangiza.util.TransferUtils$5$1
+ com.abc.Sangiza.util.TransferUtils$5$1$1
+ com.abc.Sangiza.util.TransferUtils$5$2
+ com.abc.Sangiza.util.TransferUtils$5$2$1
+ com.abc.Sangiza.util.TransferUtils$6
+ com.abc.Sangiza.util.TransferUtils$6$1
+ com.abc.Sangiza.util.TransferUtils$6$2
+ com.abc.Sangiza.util.TransferUtils$ConnectionUpdatedListener
+com/abc/Sangiza/activity/ManageDevicesActivity.java
+ com.abc.Sangiza.activity.ManageDevicesActivity
+ com.abc.Sangiza.activity.ManageDevicesActivity$1
+com/abc/Sangiza/model/Comparable.java
+ com.abc.Sangiza.model.Comparable
+com/abc/Sangiza/fragment/TransferListFragment.java
+ com.abc.Sangiza.fragment.TransferListFragment
+ com.abc.Sangiza.fragment.TransferListFragment$1
+ com.abc.Sangiza.fragment.TransferListFragment$2
+ com.abc.Sangiza.fragment.TransferListFragment$2$1
+ com.abc.Sangiza.fragment.TransferListFragment$3
+ com.abc.Sangiza.fragment.TransferListFragment$4
+ com.abc.Sangiza.fragment.TransferListFragment$5
+ com.abc.Sangiza.fragment.TransferListFragment$6
+ com.abc.Sangiza.fragment.TransferListFragment$7
+ com.abc.Sangiza.fragment.TransferListFragment$7$1
+ com.abc.Sangiza.fragment.TransferListFragment$8
+ com.abc.Sangiza.fragment.TransferListFragment$SelectionCallback
+ com.abc.Sangiza.fragment.TransferListFragment$SelectionCallback$1
+ com.abc.Sangiza.fragment.TransferListFragment$SelectionCallback$1$1
+com/abc/Sangiza/util/NetworkDeviceLoader.java
+ com.abc.Sangiza.util.NetworkDeviceLoader
+ com.abc.Sangiza.util.NetworkDeviceLoader$1
+ com.abc.Sangiza.util.NetworkDeviceLoader$OnDeviceRegisteredErrorListener
+ com.abc.Sangiza.util.NetworkDeviceLoader$OnDeviceRegisteredListener
+com/abc/Sangiza/util/IconSupport.java
+ com.abc.Sangiza.util.IconSupport
+com/abc/Sangiza/adapter/TransferPathResolverRecyclerAdapter.java
+ com.abc.Sangiza.adapter.TransferPathResolverRecyclerAdapter
+com/abc/Sangiza/dialog/TransferInfoDialog.java
+ com.abc.Sangiza.dialog.TransferInfoDialog
+ com.abc.Sangiza.dialog.TransferInfoDialog$1
+ com.abc.Sangiza.dialog.TransferInfoDialog$1$1
+ com.abc.Sangiza.dialog.TransferInfoDialog$2
+ com.abc.Sangiza.dialog.TransferInfoDialog$3
+ com.abc.Sangiza.dialog.TransferInfoDialog$3$1
+ com.abc.Sangiza.dialog.TransferInfoDialog$4
+ com.abc.Sangiza.dialog.TransferInfoDialog$5
+com/abc/Sangiza/fragment/CustomNetworkDeviceListFragment.java
+ com.abc.Sangiza.fragment.CustomNetworkDeviceListFragment
+ com.abc.Sangiza.fragment.CustomNetworkDeviceListFragment$1
+com/abc/Sangiza/fragment/HomeFragment.java
+ com.abc.Sangiza.fragment.HomeFragment
+ com.abc.Sangiza.fragment.HomeFragment$1
+ com.abc.Sangiza.fragment.HomeFragment$2
+com/abc/Sangiza/activity/BarcodeScannerActivity.java
+ com.abc.Sangiza.activity.BarcodeScannerActivity
+ com.abc.Sangiza.activity.BarcodeScannerActivity$1
+com/abc/Sangiza/model/TextStreamObject.java
+ com.abc.Sangiza.model.TextStreamObject
+com/abc/Sangiza/fragment/TransferGroupListFragment.java
+ com.abc.Sangiza.fragment.TransferGroupListFragment
+ com.abc.Sangiza.fragment.TransferGroupListFragment$1
+ com.abc.Sangiza.fragment.TransferGroupListFragment$2
+ com.abc.Sangiza.fragment.TransferGroupListFragment$2$1
+ com.abc.Sangiza.fragment.TransferGroupListFragment$3
+ com.abc.Sangiza.fragment.TransferGroupListFragment$SelectionCallback
+com/abc/Sangiza/util/NetworkDeviceScanner.java
+ com.abc.Sangiza.util.NetworkDeviceScanner
+ com.abc.Sangiza.util.NetworkDeviceScanner$Scanner
+ com.abc.Sangiza.util.NetworkDeviceScanner$ScannerExecutor
+ com.abc.Sangiza.util.NetworkDeviceScanner$ScannerHandler
+com/abc/Sangiza/widget/SwipeTouchSelectionListener.java
+ com.abc.Sangiza.widget.SwipeTouchSelectionListener
+com/abc/Sangiza/fragment/EditableListFragment.java
+ com.abc.Sangiza.fragment.EditableListFragment
+ com.abc.Sangiza.fragment.EditableListFragment$1
+ com.abc.Sangiza.fragment.EditableListFragment$2
+ com.abc.Sangiza.fragment.EditableListFragment$3
+ com.abc.Sangiza.fragment.EditableListFragment$4
+ com.abc.Sangiza.fragment.EditableListFragment$5
+ com.abc.Sangiza.fragment.EditableListFragment$6
+ com.abc.Sangiza.fragment.EditableListFragment$FilteringDelegate
+ com.abc.Sangiza.fragment.EditableListFragment$LayoutClickListener
+ com.abc.Sangiza.fragment.EditableListFragment$SelectionCallback
+ com.abc.Sangiza.fragment.EditableListFragment$SelectionCallback$1
+com/abc/Sangiza/dialog/DeviceInfoDialog.java
+ com.abc.Sangiza.dialog.DeviceInfoDialog
+ com.abc.Sangiza.dialog.DeviceInfoDialog$1
+ com.abc.Sangiza.dialog.DeviceInfoDialog$2
+ com.abc.Sangiza.dialog.DeviceInfoDialog$3
+com/abc/Sangiza/activity/FilePickerActivity.java
+ com.abc.Sangiza.activity.FilePickerActivity
+ com.abc.Sangiza.activity.FilePickerActivity$1
+ com.abc.Sangiza.activity.FilePickerActivity$2
+com/abc/Sangiza/widget/EditableListAdapter.java
+ com.abc.Sangiza.widget.EditableListAdapter
+ com.abc.Sangiza.widget.EditableListAdapter$1
+ com.abc.Sangiza.widget.EditableListAdapter$EditableViewHolder
+com/abc/Sangiza/activity/Activity.java
+ com.abc.Sangiza.activity.Activity
+ com.abc.Sangiza.activity.Activity$1
+ com.abc.Sangiza.activity.Activity$2
+ com.abc.Sangiza.activity.Activity$3
+ com.abc.Sangiza.activity.Activity$OnBackPressedListener
+ com.abc.Sangiza.activity.Activity$OnPreloadArgumentWatcher
+com/abc/Sangiza/model/ShowingAssignee.java
+ com.abc.Sangiza.model.ShowingAssignee
+com/abc/Sangiza/model/TransferObject.java
+ com.abc.Sangiza.model.TransferObject
+ com.abc.Sangiza.model.TransferObject$Flag
+ com.abc.Sangiza.model.TransferObject$Type
+ com.abc.Sangiza.model.TransferObject$Virtual
+com/abc/Sangiza/dialog/ProfileEditorDialog.java
+ com.abc.Sangiza.dialog.ProfileEditorDialog
+ com.abc.Sangiza.dialog.ProfileEditorDialog$1
+ com.abc.Sangiza.dialog.ProfileEditorDialog$2
+ com.abc.Sangiza.dialog.ProfileEditorDialog$3
+com/abc/Sangiza/activity/SplashActivity.java
+ com.abc.Sangiza.activity.SplashActivity
+com/abc/Sangiza/adapter/MusicListAdapter.java
+ com.abc.Sangiza.adapter.MusicListAdapter
+ com.abc.Sangiza.adapter.MusicListAdapter$AlbumHolder
+ com.abc.Sangiza.adapter.MusicListAdapter$SongHolder
+com/abc/Sangiza/util/AppUtils.java
+ com.abc.Sangiza.util.AppUtils
+ com.abc.Sangiza.util.AppUtils$1
+ com.abc.Sangiza.util.AppUtils$2
+ com.abc.Sangiza.util.AppUtils$3
+ com.abc.Sangiza.util.AppUtils$QuickActions
+com/abc/Sangiza/util/DynamicNotification.java
+ com.abc.Sangiza.util.DynamicNotification
+com/abc/Sangiza/fragment/FileExplorerFragment.java
+ com.abc.Sangiza.fragment.FileExplorerFragment
+ com.abc.Sangiza.fragment.FileExplorerFragment$1
+ com.abc.Sangiza.fragment.FileExplorerFragment$2
+ com.abc.Sangiza.fragment.FileExplorerFragment$FilePathResolverRecyclerAdapter
+com/abc/Sangiza/model/UITask.java
+ com.abc.Sangiza.model.UITask
+com/abc/Sangiza/view/EditableListFragmentModelImpl.java
+ com.abc.Sangiza.view.EditableListFragmentModelImpl
+com/abc/Sangiza/adapter/TransferGroupListAdapter.java
+ com.abc.Sangiza.adapter.TransferGroupListAdapter
+ com.abc.Sangiza.adapter.TransferGroupListAdapter$PreloadedGroup
+com/abc/Sangiza/activity/ConnectionManagerActivity.java
+ com.abc.Sangiza.activity.ConnectionManagerActivity
+ com.abc.Sangiza.activity.ConnectionManagerActivity$1
+ com.abc.Sangiza.activity.ConnectionManagerActivity$1$1
+ com.abc.Sangiza.activity.ConnectionManagerActivity$1$2
+ com.abc.Sangiza.activity.ConnectionManagerActivity$2
+ com.abc.Sangiza.activity.ConnectionManagerActivity$3
+ com.abc.Sangiza.activity.ConnectionManagerActivity$AvailableFragment
+ com.abc.Sangiza.activity.ConnectionManagerActivity$DeviceSelectionSupport
+ com.abc.Sangiza.activity.ConnectionManagerActivity$OptionsFragment
+ com.abc.Sangiza.activity.ConnectionManagerActivity$OptionsFragment$1
+ com.abc.Sangiza.activity.ConnectionManagerActivity$OptionsFragment$2
+ com.abc.Sangiza.activity.ConnectionManagerActivity$RequestType
+com/abc/Sangiza/view/RadarScanView.java
+ com.abc.Sangiza.view.RadarScanView
+ com.abc.Sangiza.view.RadarScanView$Raindrop
+com/abc/Sangiza/util/InterruptAwareJob.java
+ com.abc.Sangiza.util.InterruptAwareJob
+com/abc/Sangiza/activity/ContentSharingActivity.java
+ com.abc.Sangiza.activity.ContentSharingActivity
+ com.abc.Sangiza.activity.ContentSharingActivity$1
+ com.abc.Sangiza.activity.ContentSharingActivity$2
+ com.abc.Sangiza.activity.ContentSharingActivity$2$1
+com/abc/Sangiza/base/AppConfig.java
+ com.abc.Sangiza.base.AppConfig
+com/abc/Sangiza/adapter/GroupEditableListFragment.java
+ com.abc.Sangiza.adapter.GroupEditableListFragment
+com/abc/Sangiza/dialog/ManualIpAddressConnectionDialog.java
+ com.abc.Sangiza.dialog.ManualIpAddressConnectionDialog
+ com.abc.Sangiza.dialog.ManualIpAddressConnectionDialog$1
+ com.abc.Sangiza.dialog.ManualIpAddressConnectionDialog$2
+com/abc/Sangiza/view/LongTextBubbleFastScrollViewProvider.java
+ com.abc.Sangiza.view.LongTextBubbleFastScrollViewProvider
+com/abc/Sangiza/dialog/SelectionEditorDialog.java
+ com.abc.Sangiza.dialog.SelectionEditorDialog
+ com.abc.Sangiza.dialog.SelectionEditorDialog$1
+ com.abc.Sangiza.dialog.SelectionEditorDialog$2
+ com.abc.Sangiza.dialog.SelectionEditorDialog$SelfAdapter
+ com.abc.Sangiza.dialog.SelectionEditorDialog$SelfAdapter$1
+com/abc/Sangiza/util/MimeIconUtils.java
+ com.abc.Sangiza.util.MimeIconUtils
+com/abc/Sangiza/model/TransferGroup.java
+ com.abc.Sangiza.model.TransferGroup
+ com.abc.Sangiza.model.TransferGroup$Assignee
+ com.abc.Sangiza.model.TransferGroup$Index
+com/abc/Sangiza/adapter/ShareableListFragment.java
+ com.abc.Sangiza.adapter.ShareableListFragment
+ com.abc.Sangiza.adapter.ShareableListFragment$1
+ com.abc.Sangiza.adapter.ShareableListFragment$MIMEGrouper
+com/abc/Sangiza/fragment/VideoListFragment.java
+ com.abc.Sangiza.fragment.VideoListFragment
+ com.abc.Sangiza.fragment.VideoListFragment$1
+ com.abc.Sangiza.fragment.VideoListFragment$1$1
+ com.abc.Sangiza.fragment.VideoListFragment$1$2
+ com.abc.Sangiza.fragment.VideoListFragment$1$3
+ com.abc.Sangiza.fragment.VideoListFragment$2
+com/abc/Sangiza/dialog/EstablishConnectionDialog.java
+ com.abc.Sangiza.dialog.EstablishConnectionDialog
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$1
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2$1
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2$1$1
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2$2
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2$3
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2$3$1
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$2$3$2
+ com.abc.Sangiza.dialog.EstablishConnectionDialog$ConnectionResult
+com/abc/Sangiza/util/TimeUtils.java
+ com.abc.Sangiza.util.TimeUtils
+com/abc/Sangiza/activity/MainActivity.java
+ com.abc.Sangiza.activity.MainActivity
+ com.abc.Sangiza.activity.MainActivity$1
+ com.abc.Sangiza.activity.MainActivity$2
+ com.abc.Sangiza.activity.MainActivity$3
+ com.abc.Sangiza.activity.MainActivity$4
+ com.abc.Sangiza.activity.MainActivity$5
+ com.abc.Sangiza.activity.MainActivity$6
+ com.abc.Sangiza.activity.MainActivity$7
+ com.abc.Sangiza.activity.MainActivity$8
+ com.abc.Sangiza.activity.MainActivity$9
+ com.abc.Sangiza.activity.MainActivity$ActivityReceiver
+com/abc/Sangiza/fragment/NetworkManagerFragment.java
+ com.abc.Sangiza.fragment.NetworkManagerFragment
+ com.abc.Sangiza.fragment.NetworkManagerFragment$1
+ com.abc.Sangiza.fragment.NetworkManagerFragment$2
+ com.abc.Sangiza.fragment.NetworkManagerFragment$StatusReceiver
+com/abc/Sangiza/activity/SearchActivity.java
+ com.abc.Sangiza.activity.SearchActivity
+com/abc/Sangiza/dialog/FolderCreationDialog.java
+ com.abc.Sangiza.dialog.FolderCreationDialog
+ com.abc.Sangiza.dialog.FolderCreationDialog$1
+ com.abc.Sangiza.dialog.FolderCreationDialog$OnFolderCreatedListener
+com/abc/Sangiza/adapter/ActiveConnectionListAdapter.java
+ com.abc.Sangiza.adapter.ActiveConnectionListAdapter
+ com.abc.Sangiza.adapter.ActiveConnectionListAdapter$AddressedEditableInterface
+com/abc/Sangiza/view/TextDrawable.java
+ com.abc.Sangiza.view.TextDrawable
+ com.abc.Sangiza.view.TextDrawable$1
+ com.abc.Sangiza.view.TextDrawable$Builder
+ com.abc.Sangiza.view.TextDrawable$IBuilder
+ com.abc.Sangiza.view.TextDrawable$IConfigBuilder
+ com.abc.Sangiza.view.TextDrawable$IShapeBuilder
+com/abc/Sangiza/util/NotificationUtils.java
+ com.abc.Sangiza.util.NotificationUtils
+com/abc/Sangiza/dialog/SelectAssigneeDialog.java
+ com.abc.Sangiza.dialog.SelectAssigneeDialog
+ com.abc.Sangiza.dialog.SelectAssigneeDialog$1
+ com.abc.Sangiza.dialog.SelectAssigneeDialog$ListAdapter
+com/abc/Sangiza/service/CommunicationService.java
+ com.abc.Sangiza.service.CommunicationService
+ com.abc.Sangiza.service.CommunicationService$1
+ com.abc.Sangiza.service.CommunicationService$2
+ com.abc.Sangiza.service.CommunicationService$3
+ com.abc.Sangiza.service.CommunicationService$CommunicationServer
+ com.abc.Sangiza.service.CommunicationService$CommunicationServer$1
+ com.abc.Sangiza.service.CommunicationService$CommunicationServer$2
+ com.abc.Sangiza.service.CommunicationService$CommunicationServer$2$1
+ com.abc.Sangiza.service.CommunicationService$ProcessHolder
+ com.abc.Sangiza.service.CommunicationService$Receive
+ com.abc.Sangiza.service.CommunicationService$SeamlessClientHandler
+ com.abc.Sangiza.service.CommunicationService$SeamlessServer
+ com.abc.Sangiza.service.CommunicationService$Send
+com/abc/Sangiza/adapter/ApplicationListAdapter.java
+ com.abc.Sangiza.adapter.ApplicationListAdapter
+ com.abc.Sangiza.adapter.ApplicationListAdapter$PackageHolder
+com/abc/Sangiza/fragment/TransferFileExplorerFragment.java
+ com.abc.Sangiza.fragment.TransferFileExplorerFragment
+ com.abc.Sangiza.fragment.TransferFileExplorerFragment$1
+com/abc/Sangiza/activity/FileExplorerActivity.java
+ com.abc.Sangiza.activity.FileExplorerActivity
+ com.abc.Sangiza.activity.FileExplorerActivity$1
+com/abc/Sangiza/receiver/NetworkStatusReceiver.java
+ com.abc.Sangiza.receiver.NetworkStatusReceiver
+ com.abc.Sangiza.receiver.NetworkStatusReceiver$1
+com/abc/Sangiza/BuildConfig.java
+ com.abc.Sangiza.BuildConfig
+com/abc/Sangiza/service/DeviceScannerService.java
+ com.abc.Sangiza.service.DeviceScannerService
+com/abc/Sangiza/db/AccessDatabase.java
+ com.abc.Sangiza.db.AccessDatabase
+ com.abc.Sangiza.db.AccessDatabase$1
+ com.abc.Sangiza.db.AccessDatabase$2
+ com.abc.Sangiza.db.AccessDatabase$3
+com/abc/Sangiza/service/WebShareServer.java
+ com.abc.Sangiza.service.WebShareServer
+ com.abc.Sangiza.service.WebShareServer$BoundRunner
+ com.abc.Sangiza.service.WebShareServer$Tools
+ com.abc.Sangiza.service.WebShareServer$ZipBundleResponse
+ com.abc.Sangiza.service.WebShareServer$ZipBundleResponse$1
+ com.abc.Sangiza.service.WebShareServer$ZipBundleResponse$ChunkedOutputStream
+com/abc/Sangiza/activity/ShareTextActivity.java
+ com.abc.Sangiza.activity.ShareTextActivity
+com/abc/Sangiza/util/UIConnectionUtils.java
+ com.abc.Sangiza.util.UIConnectionUtils
+ com.abc.Sangiza.util.UIConnectionUtils$1
+ com.abc.Sangiza.util.UIConnectionUtils$10
+ com.abc.Sangiza.util.UIConnectionUtils$11
+ com.abc.Sangiza.util.UIConnectionUtils$12
+ com.abc.Sangiza.util.UIConnectionUtils$13
+ com.abc.Sangiza.util.UIConnectionUtils$14
+ com.abc.Sangiza.util.UIConnectionUtils$2
+ com.abc.Sangiza.util.UIConnectionUtils$3
+ com.abc.Sangiza.util.UIConnectionUtils$3$1
+ com.abc.Sangiza.util.UIConnectionUtils$3$2
+ com.abc.Sangiza.util.UIConnectionUtils$3$3
+ com.abc.Sangiza.util.UIConnectionUtils$3$3$1
+ com.abc.Sangiza.util.UIConnectionUtils$3$4
+ com.abc.Sangiza.util.UIConnectionUtils$3$5
+ com.abc.Sangiza.util.UIConnectionUtils$4
+ com.abc.Sangiza.util.UIConnectionUtils$5
+ com.abc.Sangiza.util.UIConnectionUtils$6
+ com.abc.Sangiza.util.UIConnectionUtils$7
+ com.abc.Sangiza.util.UIConnectionUtils$8
+ com.abc.Sangiza.util.UIConnectionUtils$9
+ com.abc.Sangiza.util.UIConnectionUtils$RequestWatcher
+com/abc/Sangiza/util/NotReadyException.java
+ com.abc.Sangiza.util.NotReadyException
+com/abc/Sangiza/activity/ShareActivity.java
+ com.abc.Sangiza.activity.ShareActivity
+ com.abc.Sangiza.activity.ShareActivity$1
+ com.abc.Sangiza.activity.ShareActivity$2
+ com.abc.Sangiza.activity.ShareActivity$3
+ com.abc.Sangiza.activity.ShareActivity$SelectableStream
+com/abc/Sangiza/adapter/TransferAssigneeListAdapter.java
+ com.abc.Sangiza.adapter.TransferAssigneeListAdapter
+com/abc/Sangiza/util/CommunicationBridge.java
+ com.abc.Sangiza.util.CommunicationBridge
+ com.abc.Sangiza.util.CommunicationBridge$1
+ com.abc.Sangiza.util.CommunicationBridge$Client
+ com.abc.Sangiza.util.CommunicationBridge$Client$ConnectionHandler
+ com.abc.Sangiza.util.CommunicationBridge$CommunicationException
+ com.abc.Sangiza.util.CommunicationBridge$DifferentClientException
+com/abc/Sangiza/fragment/FileListFragment.java
+ com.abc.Sangiza.fragment.FileListFragment
+ com.abc.Sangiza.fragment.FileListFragment$1
+ com.abc.Sangiza.fragment.FileListFragment$1$1
+ com.abc.Sangiza.fragment.FileListFragment$2
+ com.abc.Sangiza.fragment.FileListFragment$3
+ com.abc.Sangiza.fragment.FileListFragment$4
+ com.abc.Sangiza.fragment.FileListFragment$4$1
+ com.abc.Sangiza.fragment.FileListFragment$4$2
+ com.abc.Sangiza.fragment.FileListFragment$4$2$1
+ com.abc.Sangiza.fragment.FileListFragment$5
+ com.abc.Sangiza.fragment.FileListFragment$6
+ com.abc.Sangiza.fragment.FileListFragment$OnPathChangedListener
+ com.abc.Sangiza.fragment.FileListFragment$SelectionCallback
+com/abc/Sangiza/widget/GroupEditableListAdapter.java
+ com.abc.Sangiza.widget.GroupEditableListAdapter
+ com.abc.Sangiza.widget.GroupEditableListAdapter$1
+ com.abc.Sangiza.widget.GroupEditableListAdapter$GroupEditable
+ com.abc.Sangiza.widget.GroupEditableListAdapter$GroupLister
+ com.abc.Sangiza.widget.GroupEditableListAdapter$GroupLister$CustomGroupLister
+ com.abc.Sangiza.widget.GroupEditableListAdapter$GroupShareable
+ com.abc.Sangiza.widget.GroupEditableListAdapter$GroupViewHolder
+com/abc/Sangiza/fragment/ApplicationListFragment.java
+ com.abc.Sangiza.fragment.ApplicationListFragment
+ com.abc.Sangiza.fragment.ApplicationListFragment$1
+ com.abc.Sangiza.fragment.ApplicationListFragment$1$1
+ com.abc.Sangiza.fragment.ApplicationListFragment$1$2
+ com.abc.Sangiza.fragment.ApplicationListFragment$2
+ com.abc.Sangiza.fragment.ApplicationListFragment$3
+com/abc/Sangiza/activity/TextEditorActivity.java
+ com.abc.Sangiza.activity.TextEditorActivity
+ com.abc.Sangiza.activity.TextEditorActivity$1
+ com.abc.Sangiza.activity.TextEditorActivity$2
+ com.abc.Sangiza.activity.TextEditorActivity$2$1
+ com.abc.Sangiza.activity.TextEditorActivity$2$2
+com/abc/Sangiza/util/FileUtils.java
+ com.abc.Sangiza.util.FileUtils
+com/abc/Sangiza/view/EditableListFragmentImpl.java
+ com.abc.Sangiza.view.EditableListFragmentImpl
+com/abc/Sangiza/fragment/HotspotManagerFragment.java
+ com.abc.Sangiza.fragment.HotspotManagerFragment
+ com.abc.Sangiza.fragment.HotspotManagerFragment$1
+ com.abc.Sangiza.fragment.HotspotManagerFragment$2
+ com.abc.Sangiza.fragment.HotspotManagerFragment$3
+ com.abc.Sangiza.fragment.HotspotManagerFragment$4
+ com.abc.Sangiza.fragment.HotspotManagerFragment$StatusReceiver
+com/abc/Sangiza/model/Shareable.java
+ com.abc.Sangiza.model.Shareable
+com/abc/Sangiza/util/ProgressDialog.java
+ com.abc.Sangiza.util.ProgressDialog
+ com.abc.Sangiza.util.ProgressDialog$1
+ com.abc.Sangiza.util.ProgressDialog$ViewUpdateHandler
+com/abc/Sangiza/fragment/MusicListFragment.java
+ com.abc.Sangiza.fragment.MusicListFragment
+ com.abc.Sangiza.fragment.MusicListFragment$1
+ com.abc.Sangiza.fragment.MusicListFragment$1$1
+ com.abc.Sangiza.fragment.MusicListFragment$1$2
+ com.abc.Sangiza.fragment.MusicListFragment$2
+com/abc/Sangiza/util/ConnectionSetUpAssistant.java
+ com.abc.Sangiza.util.ConnectionSetUpAssistant
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$1
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$10
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$2
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$3
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$4
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$5
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$6
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$7
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$8
+ com.abc.Sangiza.util.ConnectionSetUpAssistant$9
+com/abc/Sangiza/adapter/PathResolverRecyclerAdapter.java
+ com.abc.Sangiza.adapter.PathResolverRecyclerAdapter
+ com.abc.Sangiza.adapter.PathResolverRecyclerAdapter$1
+ com.abc.Sangiza.adapter.PathResolverRecyclerAdapter$Holder
+ com.abc.Sangiza.adapter.PathResolverRecyclerAdapter$Holder$Index
+ com.abc.Sangiza.adapter.PathResolverRecyclerAdapter$OnClickListener
+com/abc/Sangiza/widget/EditableListAdapterImpl.java
+ com.abc.Sangiza.widget.EditableListAdapterImpl
+com/abc/Sangiza/util/PowerfulActionModeSupport.java
+ com.abc.Sangiza.util.PowerfulActionModeSupport
+com/abc/Sangiza/dialog/RationalePermissionRequest.java
+ com.abc.Sangiza.dialog.RationalePermissionRequest
+ com.abc.Sangiza.dialog.RationalePermissionRequest$1
+ com.abc.Sangiza.dialog.RationalePermissionRequest$2
+ com.abc.Sangiza.dialog.RationalePermissionRequest$3
+ com.abc.Sangiza.dialog.RationalePermissionRequest$PermissionRequest
+com/abc/Sangiza/adapter/ImageListAdapter.java
+ com.abc.Sangiza.adapter.ImageListAdapter
+ com.abc.Sangiza.adapter.ImageListAdapter$ImageHolder
+com/abc/Sangiza/model/NetworkDevice.java
+ com.abc.Sangiza.model.NetworkDevice
+ com.abc.Sangiza.model.NetworkDevice$Connection
+com/abc/Sangiza/fragment/NetworkDeviceListFragment.java
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$1
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$2
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$3
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$4
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$4$1
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$5
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$6
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$7
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$8
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$StatusReceiver
+ com.abc.Sangiza.fragment.NetworkDeviceListFragment$StatusReceiver$1
+com/abc/Sangiza/activity/HistoryActivity.java
+ com.abc.Sangiza.activity.HistoryActivity
+ com.abc.Sangiza.activity.HistoryActivity$1
+com/abc/Sangiza/util/NsdDiscovery.java
+ com.abc.Sangiza.util.NsdDiscovery
+ com.abc.Sangiza.util.NsdDiscovery$1
+ com.abc.Sangiza.util.NsdDiscovery$1$1
+ com.abc.Sangiza.util.NsdDiscovery$2
+com/abc/Sangiza/util/CommunicationNotificationHelper.java
+ com.abc.Sangiza.util.CommunicationNotificationHelper
+com/abc/Sangiza/base/App.java
+ com.abc.Sangiza.base.App
+ com.abc.Sangiza.base.App$1
+com/abc/Sangiza/activity/ChangeStoragePathActivity.java
+ com.abc.Sangiza.activity.ChangeStoragePathActivity
+com/abc/Sangiza/adapter/FileListAdapter.java
+ com.abc.Sangiza.adapter.FileListAdapter
+ com.abc.Sangiza.adapter.FileListAdapter$1
+ com.abc.Sangiza.adapter.FileListAdapter$DirectoryHolder
+ com.abc.Sangiza.adapter.FileListAdapter$FileHolder
+ com.abc.Sangiza.adapter.FileListAdapter$FileHolderMerger
+ com.abc.Sangiza.adapter.FileListAdapter$FileHolderMerger$Type
+ com.abc.Sangiza.adapter.FileListAdapter$GenericFileHolder
+ com.abc.Sangiza.adapter.FileListAdapter$PublicDirectoryHolder
+ com.abc.Sangiza.adapter.FileListAdapter$ReceivedFileHolder
+ com.abc.Sangiza.adapter.FileListAdapter$RecentFileHolder
+ com.abc.Sangiza.adapter.FileListAdapter$ShortcutDirectoryHolder
+ com.abc.Sangiza.adapter.FileListAdapter$StorageHolder
+ com.abc.Sangiza.adapter.FileListAdapter$StorageHolderImpl
+ com.abc.Sangiza.adapter.FileListAdapter$WritablePathHolder
+com/abc/Sangiza/dialog/ConnectionTestDialog.java
+ com.abc.Sangiza.dialog.ConnectionTestDialog
+ com.abc.Sangiza.dialog.ConnectionTestDialog$1
+ com.abc.Sangiza.dialog.ConnectionTestDialog$ConnectionListAdapter
+com/abc/Sangiza/adapter/SmartFragmentPagerAdapter.java
+ com.abc.Sangiza.adapter.SmartFragmentPagerAdapter
+ com.abc.Sangiza.adapter.SmartFragmentPagerAdapter$StableItem
+ com.abc.Sangiza.adapter.SmartFragmentPagerAdapter$StableItem$1
+com/abc/Sangiza/util/TextUtils.java
+ com.abc.Sangiza.util.TextUtils
+ com.abc.Sangiza.util.TextUtils$1
+com/abc/Sangiza/util/OnDeviceSelectedListener.java
+ com.abc.Sangiza.util.OnDeviceSelectedListener
+com/abc/Sangiza/fragment/QRConnectFragment.java
+ com.abc.Sangiza.fragment.QRConnectFragment
+ com.abc.Sangiza.fragment.QRConnectFragment$1
+ com.abc.Sangiza.fragment.QRConnectFragment$10
+ com.abc.Sangiza.fragment.QRConnectFragment$11
+ com.abc.Sangiza.fragment.QRConnectFragment$12
+ com.abc.Sangiza.fragment.QRConnectFragment$13
+ com.abc.Sangiza.fragment.QRConnectFragment$2
+ com.abc.Sangiza.fragment.QRConnectFragment$3
+ com.abc.Sangiza.fragment.QRConnectFragment$4
+ com.abc.Sangiza.fragment.QRConnectFragment$5
+ com.abc.Sangiza.fragment.QRConnectFragment$6
+ com.abc.Sangiza.fragment.QRConnectFragment$7
+ com.abc.Sangiza.fragment.QRConnectFragment$8
+ com.abc.Sangiza.fragment.QRConnectFragment$9
+com/abc/Sangiza/view/SharingActionModeCallback.java
+ com.abc.Sangiza.view.SharingActionModeCallback
+ com.abc.Sangiza.view.SharingActionModeCallback$SelectionDuo
+com/abc/Sangiza/adapter/TransferListAdapter.java
+ com.abc.Sangiza.adapter.TransferListAdapter
+ com.abc.Sangiza.adapter.TransferListAdapter$1
+ com.abc.Sangiza.adapter.TransferListAdapter$AbstractGenericItem
+ com.abc.Sangiza.adapter.TransferListAdapter$DetailsTransferFolder
+ com.abc.Sangiza.adapter.TransferListAdapter$GenericTransferItem
+ com.abc.Sangiza.adapter.TransferListAdapter$GroupEditableTransferObjectMerger
+ com.abc.Sangiza.adapter.TransferListAdapter$GroupEditableTransferObjectMerger$Type
+ com.abc.Sangiza.adapter.TransferListAdapter$PathChangedListener
+ com.abc.Sangiza.adapter.TransferListAdapter$StatusItem
+ com.abc.Sangiza.adapter.TransferListAdapter$StorageStatusItem
+ com.abc.Sangiza.adapter.TransferListAdapter$TransferFolder
+com/abc/Sangiza/dialog/FileDeletionDialog.java
+ com.abc.Sangiza.dialog.FileDeletionDialog
+ com.abc.Sangiza.dialog.FileDeletionDialog$1
+ com.abc.Sangiza.dialog.FileDeletionDialog$1$1
+ com.abc.Sangiza.dialog.FileDeletionDialog$Listener
+com/abc/Sangiza/model/FileShortcutObject.java
+ com.abc.Sangiza.model.FileShortcutObject
+com/abc/Sangiza/dialog/FileRenameDialog.java
+ com.abc.Sangiza.dialog.FileRenameDialog
+ com.abc.Sangiza.dialog.FileRenameDialog$1
+ com.abc.Sangiza.dialog.FileRenameDialog$1$1
+ com.abc.Sangiza.dialog.FileRenameDialog$OnFileRenameListener
+com/abc/Sangiza/fragment/ActiveConnectionListFragment.java
+ com.abc.Sangiza.fragment.ActiveConnectionListFragment
+ com.abc.Sangiza.fragment.ActiveConnectionListFragment$1
+ com.abc.Sangiza.fragment.ActiveConnectionListFragment$2
+ com.abc.Sangiza.fragment.ActiveConnectionListFragment$2$1
+ com.abc.Sangiza.fragment.ActiveConnectionListFragment$2$2
+ com.abc.Sangiza.fragment.ActiveConnectionListFragment$3
+com/abc/Sangiza/model/Editable.java
+ com.abc.Sangiza.model.Editable
+com/abc/Sangiza/base/ApplicationGlideModule.java
+ com.abc.Sangiza.base.ApplicationGlideModule
+ com.abc.Sangiza.base.ApplicationGlideModule$1
+ com.abc.Sangiza.base.ApplicationGlideModule$ApplicationIconDecoder
+ com.abc.Sangiza.base.ApplicationGlideModule$ApplicationIconDecoder$1
+ com.abc.Sangiza.base.ApplicationGlideModule$ApplicationIconModelLoader
+ com.abc.Sangiza.base.ApplicationGlideModule$ApplicationIconModelLoader$1
+com/abc/Sangiza/model/TitleSupport.java
+ com.abc.Sangiza.model.TitleSupport
+com/abc/Sangiza/base/Keyword.java
+ com.abc.Sangiza.base.Keyword
+ com.abc.Sangiza.base.Keyword$Flavor
+ com.abc.Sangiza.base.Keyword$Local
+com/abc/Sangiza/fragment/ImageListFragment.java
+ com.abc.Sangiza.fragment.ImageListFragment
+ com.abc.Sangiza.fragment.ImageListFragment$1
+ com.abc.Sangiza.fragment.ImageListFragment$1$1
+ com.abc.Sangiza.fragment.ImageListFragment$1$2
+ com.abc.Sangiza.fragment.ImageListFragment$1$3
+ com.abc.Sangiza.fragment.ImageListFragment$2
+com/abc/Sangiza/service/CommunicationToggleTile.java
+ com.abc.Sangiza.service.CommunicationToggleTile
+com/abc/Sangiza/util/NetworkUtils.java
+ com.abc.Sangiza.util.NetworkUtils
+com/abc/Sangiza/util/NetworkDeviceSelectedListener.java
+ com.abc.Sangiza.util.NetworkDeviceSelectedListener
+com/abc/Sangiza/activity/ViewTransferActivity.java
+ com.abc.Sangiza.activity.ViewTransferActivity
+ com.abc.Sangiza.activity.ViewTransferActivity$1
+ com.abc.Sangiza.activity.ViewTransferActivity$2
+ com.abc.Sangiza.activity.ViewTransferActivity$3
+ com.abc.Sangiza.activity.ViewTransferActivity$3$1
+ com.abc.Sangiza.activity.ViewTransferActivity$4
+ com.abc.Sangiza.activity.ViewTransferActivity$5
+ com.abc.Sangiza.activity.ViewTransferActivity$5$1
+ com.abc.Sangiza.activity.ViewTransferActivity$6
+ com.abc.Sangiza.activity.ViewTransferActivity$CrunchLatestDataTask
+ com.abc.Sangiza.activity.ViewTransferActivity$CrunchLatestDataTask$PostExecuteListener
+com/abc/Sangiza/service/Service.java
+ com.abc.Sangiza.service.Service
+com/abc/Sangiza/adapter/VideoListAdapter.java
+ com.abc.Sangiza.adapter.VideoListAdapter
+ com.abc.Sangiza.adapter.VideoListAdapter$VideoHolder
+com/abc/Sangiza/view/SelectionIllustratorImageView.java
+ com.abc.Sangiza.view.SelectionIllustratorImageView
+com/abc/Sangiza/service/WorkerService.java
+ com.abc.Sangiza.service.WorkerService
+ com.abc.Sangiza.service.WorkerService$1
+ com.abc.Sangiza.service.WorkerService$LocalBinder
+ com.abc.Sangiza.service.WorkerService$OnAttachListener
+ com.abc.Sangiza.service.WorkerService$RunningTask
+ com.abc.Sangiza.service.WorkerService$RunningTask$1
+com/abc/Sangiza/view/ComparativeRelativeLayout.java
+ com.abc.Sangiza.view.ComparativeRelativeLayout
+com/abc/Sangiza/activity/WebShareActivity.java
+ com.abc.Sangiza.activity.WebShareActivity
+ com.abc.Sangiza.activity.WebShareActivity$1
+ com.abc.Sangiza.activity.WebShareActivity$2
+com/abc/Sangiza/util/ConnectionUtils.java
+ com.abc.Sangiza.util.ConnectionUtils
+ com.abc.Sangiza.util.ConnectionUtils$ConnectionCallback
+com/abc/Sangiza/dialog/ConnectionChooserDialog.java
+ com.abc.Sangiza.dialog.ConnectionChooserDialog
+ com.abc.Sangiza.dialog.ConnectionChooserDialog$1
+ com.abc.Sangiza.dialog.ConnectionChooserDialog$2
+ com.abc.Sangiza.dialog.ConnectionChooserDialog$ConnectionListAdapter
+com/abc/Sangiza/util/HotspotUtils.java
+ com.abc.Sangiza.util.HotspotUtils
+ com.abc.Sangiza.util.HotspotUtils$1
+ com.abc.Sangiza.util.HotspotUtils$HackAPI
+ com.abc.Sangiza.util.HotspotUtils$OreoAPI
+ com.abc.Sangiza.util.HotspotUtils$OreoAPI$1
+com/abc/Sangiza/adapter/NetworkDeviceListAdapter.java
+ com.abc.Sangiza.adapter.NetworkDeviceListAdapter
+ com.abc.Sangiza.adapter.NetworkDeviceListAdapter$EditableNetworkDevice
+ com.abc.Sangiza.adapter.NetworkDeviceListAdapter$HotspotNetwork
+com/abc/Sangiza/view/GalleryGroupEditableListFragment.java
+ com.abc.Sangiza.view.GalleryGroupEditableListFragment
+com/abc/Sangiza/activity/InviteActivity.java
+ com.abc.Sangiza.activity.InviteActivity
+ com.abc.Sangiza.activity.InviteActivity$1
+com/abc/Sangiza/util/OrganizeShareRunningTask.java
+ com.abc.Sangiza.util.OrganizeShareRunningTask
+ com.abc.Sangiza.util.OrganizeShareRunningTask$1
+com/abc/Sangiza/dialog/AbstractSingleTextInputDialog.java
+ com.abc.Sangiza.dialog.AbstractSingleTextInputDialog
+com/abc/Sangiza/activity/AddDevicesToTransferActivity.java
+ com.abc.Sangiza.activity.AddDevicesToTransferActivity
+ com.abc.Sangiza.activity.AddDevicesToTransferActivity$1
+ com.abc.Sangiza.activity.AddDevicesToTransferActivity$2
+ com.abc.Sangiza.activity.AddDevicesToTransferActivity$3
+ com.abc.Sangiza.activity.AddDevicesToTransferActivity$4
+ com.abc.Sangiza.activity.AddDevicesToTransferActivity$5
+com/abc/Sangiza/util/AddDeviceRunningTask.java
+ com.abc.Sangiza.util.AddDeviceRunningTask
+ com.abc.Sangiza.util.AddDeviceRunningTask$1
+ com.abc.Sangiza.util.AddDeviceRunningTask$2
+ com.abc.Sangiza.util.AddDeviceRunningTask$2$1
+ com.abc.Sangiza.util.AddDeviceRunningTask$2$2
+ com.abc.Sangiza.util.AddDeviceRunningTask$2$3
+ com.abc.Sangiza.util.AddDeviceRunningTask$2$4
+ com.abc.Sangiza.util.AddDeviceRunningTask$2$5
+com/abc/Sangiza/dialog/AbstractFailureAwareDialog.java
+ com.abc.Sangiza.dialog.AbstractFailureAwareDialog
+ com.abc.Sangiza.dialog.AbstractFailureAwareDialog$1
+ com.abc.Sangiza.dialog.AbstractFailureAwareDialog$OnProceedClickListener

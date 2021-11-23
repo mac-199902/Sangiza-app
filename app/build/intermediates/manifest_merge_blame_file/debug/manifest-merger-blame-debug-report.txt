@@ -1,0 +1,788 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.abc.sangiza"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:6:5-76
+11-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:8:5-76
+13-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:11:5-77
+16-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:12:5-75
+17-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:12:22-72
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:13:5-83
+18-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:13:22-80
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:14:5-78
+19-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:14:22-75
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:15:5-81
+20-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+21-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:16:5-17:47
+21-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:16:22-70
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:18:5-81
+22-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:18:22-78
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:19:5-79
+23-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:19:22-76
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:20:5-66
+24-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:20:22-63
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:22:5-68
+25-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:22:22-65
+26
+27    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+28    <permission
+28-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:7:5-9:47
+29        android:name="com.abc.sangiza.permission.C2D_MESSAGE"
+29-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:8:9-63
+30        android:protectionLevel="signature" />
+30-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:9:9-44
+31
+32    <uses-permission android:name="com.abc.sangiza.permission.C2D_MESSAGE" />
+32-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:5-79
+32-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:22-76
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:5-82
+33-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:22-79
+34    <!--
+35 Use to restore notifications the user hasn't interacted with.
+36         They could be missed notifications if the user reboots their device if this isn't in place.
+37    -->
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+38-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:5-81
+38-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:22-78
+39    <!-- Samsung -->
+40    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+40-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:5-86
+40-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:22-83
+41    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+41-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:5-87
+41-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:22-84
+42    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+42-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:5-81
+42-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:22-78
+43    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+43-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:5-83
+43-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:22-80
+44    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+44-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:5-88
+44-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:22-85
+45    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+45-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:5-92
+45-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:22-89
+46    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+46-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:5-84
+46-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:22-81
+47    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+47-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:5-83
+47-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:22-80
+48    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+48-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:5-91
+48-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:22-88
+49    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:5-92
+49-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:22-89
+50    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+50-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:5-93
+50-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:22-90
+51    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+51-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:5-73
+51-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:22-70
+52    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+52-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:5-82
+52-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:22-79
+53    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+53-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:5-83
+53-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:22-80
+54    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+54-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:5-88
+54-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:22-85
+55    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+55-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:5-89
+55-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:22-86
+56    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+56-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:11:5-65
+56-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:11:22-62
+57    <uses-feature
+57-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:14:5-16:36
+58        android:name="android.hardware.camera"
+58-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:15:9-47
+59        android:required="false" />
+59-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:16:9-33
+60    <uses-feature
+60-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:17:5-19:36
+61        android:name="android.hardware.camera.front"
+61-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:18:9-53
+62        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+62-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:19:9-33
+63    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+64    <uses-feature
+64-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:22:5-24:36
+65        android:name="android.hardware.camera.autofocus"
+65-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:23:9-57
+66        android:required="false" />
+66-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:24:9-33
+67    <uses-feature
+67-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:25:5-27:36
+68        android:name="android.hardware.camera.flash"
+68-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:26:9-53
+69        android:required="false" />
+69-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:27:9-33
+70    <uses-feature
+70-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:28:5-30:36
+71        android:name="android.hardware.screen.landscape"
+71-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:29:9-57
+72        android:required="false" />
+72-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:30:9-33
+73    <uses-feature
+73-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:31:5-33:36
+74        android:name="android.hardware.wifi"
+74-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:32:9-45
+75        android:required="false" />
+75-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:33:9-33
+76
+77    <application
+77-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:24:5-219:19
+78        android:name="com.abc.Sangiza.base.App"
+78-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:25:9-48
+79        android:allowBackup="true"
+79-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:26:9-35
+80        android:appComponentFactory="@string/app_name"
+80-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:27:9-55
+81        android:debuggable="true"
+82        android:fullBackupContent="true"
+82-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:28:9-41
+83        android:icon="@mipmap/ic_launcher"
+83-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:29:9-43
+84        android:label="@string/app_name"
+84-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:30:9-41
+85        android:supportsRtl="true"
+85-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:31:9-35
+86        android:testOnly="true"
+87        android:theme="@style/Theme.TBShare" >
+87-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:32:9-45
+88        <meta-data
+88-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:36:9-38:69
+89            android:name="com.google.android.gms.version"
+89-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:37:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:38:13-66
+91
+92        <activity
+92-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:40:9-46:20
+93            android:name="com.abc.Sangiza.activity.MainActivity"
+93-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:41:13-65
+94            android:label=""
+94-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:42:13-29
+95            android:launchMode="singleTask"
+95-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:43:13-44
+96            android:theme="@style/Theme.TBShare.NoActionBar" >
+96-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:44:13-61
+97        </activity>
+98        <activity
+98-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:47:9-63:20
+99            android:name="com.abc.Sangiza.activity.ShareActivity"
+99-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:48:13-66
+100            android:label="@string/app_name"
+100-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:49:13-45
+101            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
+101-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:50:13-77
+102            <intent-filter>
+102-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:51:13-60:29
+103                <action android:name="com.abc.mxcloneshare.intent.action.TBShare_SEND_TEXT" />
+103-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:52:17-95
+103-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:52:25-92
+104                <action android:name="android.intent.action.SEND" />
+104-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:53:17-69
+104-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:53:25-66
+105                <action android:name="android.intent.action.SEND_MULTIPLE" />
+105-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:54:17-78
+105-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:54:25-75
+106                <action android:name="com.abc.mxcloneshare.intent.action.TBShare_SEND" />
+106-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:55:17-90
+106-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:55:25-87
+107                <action android:name="com.abc.mxcloneshare.intent.action.TBShare_SEND_MULTIPLE" />
+107-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:56:17-99
+107-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:56:25-96
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:17-76
+109-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:27-73
+110
+111                <data android:mimeType="*/*" />
+111-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+111-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:23-45
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:65:9-68:80
+115            android:name="com.abc.Sangiza.activity.AddDevicesToTransferActivity"
+115-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:66:13-81
+116            android:label="@string/text_addDevicesToTransfer"
+116-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:67:13-62
+117            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+117-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:68:13-77
+118        <activity
+118-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:70:9-73:80
+119            android:name="com.abc.Sangiza.activity.FileExplorerActivity"
+119-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:71:13-73
+120            android:label="@string/text_fileExplorer"
+120-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:72:13-54
+121            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+121-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:73:13-77
+122        <activity
+122-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:75:9-78:80
+123            android:name="com.abc.Sangiza.activity.ConnectionManagerActivity"
+123-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:76:13-78
+124            android:label="@string/text_connectDevices"
+124-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:77:13-56
+125            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+125-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:78:13-77
+126        <activity
+126-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:80:9-84:80
+127            android:name="com.abc.Sangiza.activity.ContentSharingActivity"
+127-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:81:13-75
+128            android:label="@string/text_send"
+128-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:82:13-46
+129            android:launchMode="singleTask"
+129-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:83:13-44
+130            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
+130-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:84:13-77
+131        <activity
+131-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:86:9-88:57
+132            android:name="com.abc.Sangiza.activity.FilePickerActivity"
+132-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:87:13-71
+133            android:label="@string/text_fileExplorer" />
+133-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:88:13-54
+134        <activity
+134-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:90:9-108:20
+135            android:name="com.abc.Sangiza.activity.ViewTransferActivity"
+135-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:91:13-73
+136            android:label="@string/text_transactionViewer"
+136-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:92:13-59
+137            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
+137-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:93:13-77
+138            <intent-filter>
+138-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:94:13-107:29
+139                <action android:name="android.intent.action.VIEW" />
+139-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:95:17-69
+139-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:95:25-66
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:17-76
+141-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:27-73
+142                <category android:name="android.intent.category.BROWSABLE" />
+142-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:98:17-78
+142-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:98:27-75
+143
+144                <data android:scheme="file" />
+144-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+144-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:100:23-44
+145                <data android:scheme="content" />
+145-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+145-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:100:23-44
+146                <data android:mimeType="*/*" />
+146-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+146-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:23-45
+147                <data android:host="*" />
+147-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+147-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:104:23-39
+148                <data android:pathPattern=".*\\.tshare" />
+148-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+148-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:105:23-56
+149                <data android:pathPattern=".*\\..*\\.tshare" />
+149-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:59:17-48
+149-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:105:23-56
+150            </intent-filter>
+151        </activity>
+152        <activity
+152-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:110:9-113:63
+153            android:name="com.abc.Sangiza.activity.ManageDevicesActivity"
+153-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:111:13-74
+154            android:label="@string/text_manageDevices"
+154-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:112:13-55
+155            android:theme="@style/Theme.TBShare.NoActionBar" />
+155-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:113:13-61
+156        <activity
+156-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:115:9-117:51
+157            android:name="com.abc.Sangiza.activity.SearchActivity"
+157-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:116:13-67
+158            android:label="@string/butn_search" />
+158-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:117:13-48
+159        <activity
+159-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:119:9-121:55
+160            android:name="com.abc.Sangiza.activity.TextEditorActivity"
+160-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:120:13-71
+161            android:label="@string/text_textEditor" />
+161-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:121:13-52
+162        <activity
+162-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:123:9-130:20
+163            android:name="com.abc.Sangiza.activity.ChangeStoragePathActivity"
+163-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:124:13-78
+164            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+164-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:125:13-63
+165            <intent-filter>
+165-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:126:13-129:29
+166                <action android:name="com.com.abc.mxcloneshare.intent.action.UPDATE_STORAGE_PATH" />
+166-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:127:17-101
+166-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:127:25-98
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:17-76
+168-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:27-73
+169            </intent-filter>
+170        </activity>
+171        <activity
+171-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:132:9-135:75
+172            android:name="com.abc.Sangiza.activity.BarcodeScannerActivity"
+172-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:133:13-75
+173            android:label="@string/text_scanQrCode"
+173-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:134:13-52
+174            android:theme="@style/Theme.TBShare.BarcodeScannerActivity" />
+174-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:135:13-72
+175        <activity
+175-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:137:9-147:20
+176            android:name="com.abc.Sangiza.activity.SplashActivity"
+176-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:138:13-67
+177            android:label="@string/app_name"
+177-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:139:13-45
+178            android:theme="@style/Theme.TBShare.NoActionBar" >
+178-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:140:13-61
+179            <intent-filter>
+179-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:142:13-145:29
+180                <action android:name="android.intent.action.MAIN" />
+180-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:143:17-69
+180-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:143:25-66
+181
+182                <category android:name="android.intent.category.LAUNCHER" />
+182-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:144:17-77
+182-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:144:27-74
+183            </intent-filter>
+184        </activity>
+185        <activity
+185-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:148:9-150:63
+186            android:name="com.abc.Sangiza.activity.WebShareActivity"
+186-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:148:19-75
+187            android:label="Web Share"
+187-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:149:13-38
+188            android:theme="@style/Theme.TBShare.NoActionBar" />
+188-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:150:13-61
+189        <activity
+189-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:151:9-153:63
+190            android:name="com.abc.Sangiza.activity.HistoryActivity"
+190-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:151:19-74
+191            android:label=""
+191-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:152:13-29
+192            android:theme="@style/Theme.TBShare.NoActionBar" />
+192-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:153:13-61
+193        <activity
+193-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:154:9-156:63
+194            android:name="com.abc.Sangiza.activity.InviteActivity"
+194-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:154:19-73
+195            android:label=""
+195-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:155:13-29
+196            android:theme="@style/Theme.TBShare.NoActionBar" />
+196-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:156:13-61
+197
+198        <provider
+199            android:name="androidx.core.content.FileProvider"
+199-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:159:13-62
+200            android:authorities="com.abc.sangiza.fileprovider"
+200-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:160:13-64
+201            android:exported="false"
+201-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:161:13-37
+202            android:grantUriPermissions="true" >
+202-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:162:13-47
+203            <meta-data
+203-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:163:13-165:58
+204                android:name="android.support.FILE_PROVIDER_PATHS"
+204-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:164:17-67
+205                android:resource="@xml/provider_paths" />
+205-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:165:17-55
+206        </provider>
+207
+208        <receiver
+208-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:168:9-177:20
+209            android:name="com.abc.Sangiza.receiver.NetworkStatusReceiver"
+209-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:169:13-74
+210            android:process=":transfer" >
+210-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:170:13-40
+211            <intent-filter>
+211-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:171:13-176:29
+212                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+212-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:172:17-78
+212-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:172:25-75
+213                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
+213-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:173:17-81
+213-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:173:25-78
+214                <action android:name="android.net.wifi.STATE_CHANGE" />
+214-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:174:17-72
+214-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:174:25-69
+215                <action android:name="android.net.wifi.p2p.CONNECTION_STATE_CHANGE" />
+215-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:175:17-87
+215-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:175:25-84
+216            </intent-filter>
+217        </receiver>
+218        <receiver
+218-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:178:9-180:43
+219            android:name="com.abc.Sangiza.receiver.DialogEventReceiver"
+219-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:179:13-72
+220            android:process=":transfer" />
+220-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:180:13-40
+221
+222        <service
+222-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:182:9-186:43
+223            android:name="com.abc.Sangiza.service.CommunicationService"
+223-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:183:13-72
+224            android:enabled="true"
+224-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:184:13-35
+225            android:label="@string/text_communicationService"
+225-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:185:13-62
+226            android:process=":transfer" />
+226-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:186:13-40
+227        <service
+227-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:188:9-195:19
+228            android:name="com.abc.Sangiza.service.DeviceChooserService"
+228-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:189:13-72
+229            android:label="@string/text_chooserTargetService"
+229-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:190:13-62
+230            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+230-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:191:13-80
+231            <intent-filter>
+231-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:192:13-194:29
+232                <action android:name="android.service.chooser.ChooserTargetService" />
+232-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:193:17-87
+232-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:193:25-84
+233            </intent-filter>
+234        </service>
+235        <service android:name="com.abc.Sangiza.service.DeviceScannerService" >
+235-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:196:9-203:19
+235-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:196:18-77
+236            <intent-filter>
+236-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:197:13-202:29
+237                <action android:name="com.abc.mxcloneshare.intent.action.SCAN_DEVICES" />
+237-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:198:17-90
+237-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:198:25-87
+238                <action android:name="com.abc.mxcloneshare.intent.action.ADD_IP" />
+238-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:199:17-84
+238-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:199:25-81
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:17-76
+240-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:58:27-73
+241            </intent-filter>
+242        </service>
+243        <service
+243-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:205:9-207:58
+244            android:name="com.abc.Sangiza.service.WorkerService"
+244-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:206:13-65
+245            android:label="@string/text_workerService" />
+245-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:207:13-55
+246        <service
+246-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:209:9-218:19
+247            android:name="com.abc.Sangiza.service.CommunicationToggleTile"
+247-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:210:13-75
+248            android:icon="@mipmap/ic_launcher"
+248-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:211:13-47
+249            android:label="@string/text_shareFiles"
+249-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:212:13-52
+250            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+250-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:213:13-77
+251            android:process=":transfer" >
+251-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:214:13-40
+252            <intent-filter>
+252-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:215:13-217:29
+253                <action android:name="android.service.quicksettings.action.QS_TILE" />
+253-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:216:17-87
+253-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:216:25-84
+254            </intent-filter>
+255        </service>
+256
+257        <activity
+257-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:15:9-19:75
+258            android:name="com.facebook.ads.AudienceNetworkActivity"
+258-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:16:13-68
+259            android:configChanges="keyboardHidden|orientation|screenSize"
+259-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:17:13-74
+260            android:exported="false"
+260-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:18:13-37
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:19:13-72
+262
+263        <provider
+263-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:21:9-24:40
+264            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+264-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:22:13-75
+265            android:authorities="com.abc.sangiza.AudienceNetworkContentProvider"
+265-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:23:13-82
+266            android:exported="false" />
+266-->[com.facebook.android:audience-network-sdk:5.11.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\508c83f39595c2e4af5d662b21d9d11e\jetified-audience-network-sdk-5.11.0\AndroidManifest.xml:24:13-37
+267
+268        <meta-data
+268-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:49:9-51:51
+269            android:name="onesignal_app_id"
+269-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:50:13-44
+270            android:value="Your OneSignal ID" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+270-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:51:13-48
+271        <meta-data
+271-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:53:9-55:70
+272            android:name="onesignal_google_project_number"
+272-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:54:13-59
+273            android:value="str:REMOTE" />
+273-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:55:13-67
+274
+275        <receiver
+275-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:57:9-67:20
+276            android:name="com.onesignal.GcmBroadcastReceiver"
+276-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:58:13-62
+277            android:permission="com.google.android.c2dm.permission.SEND" >
+277-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:59:13-73
+278
+279            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+280            <intent-filter android:priority="999" >
+280-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:13-66:29
+280-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:28-50
+281                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+281-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+281-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+282
+283                <category android:name="com.abc.sangiza" />
+283-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:17-61
+283-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:27-58
+284            </intent-filter>
+285        </receiver>
+286        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+286-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:9-77
+286-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:19-74
+287
+288        <service
+288-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:70:9-76:19
+289            android:name="com.onesignal.HmsMessageServiceOneSignal"
+289-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:71:13-68
+290            android:exported="false" >
+290-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:72:13-37
+291            <intent-filter>
+291-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:73:13-75:29
+292                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+292-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:17-81
+292-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:25-78
+293            </intent-filter>
+294        </service>
+295
+296        <activity
+296-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:78:9-84:20
+297            android:name="com.onesignal.NotificationOpenedActivityHMS"
+297-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:79:13-71
+298            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+298-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:80:13-72
+299            <intent-filter>
+299-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:81:13-83:29
+300                <action android:name="android.intent.action.VIEW" />
+300-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:95:17-69
+300-->C:\Users\Roseline Ishimwe\Desktop\ART\Sangiza\app\src\main\AndroidManifest.xml:95:25-66
+301            </intent-filter>
+302        </activity>
+303
+304        <service android:name="com.onesignal.GcmIntentService" />
+304-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:9-66
+304-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:18-63
+305        <service
+305-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:87:9-89:72
+306            android:name="com.onesignal.GcmIntentJobService"
+306-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:88:13-61
+307            android:permission="android.permission.BIND_JOB_SERVICE" />
+307-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:89:13-69
+308        <service
+308-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:90:9-92:72
+309            android:name="com.onesignal.RestoreJobService"
+309-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:91:13-59
+310            android:permission="android.permission.BIND_JOB_SERVICE" />
+310-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:92:13-69
+311        <service
+311-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:93:9-95:72
+312            android:name="com.onesignal.RestoreKickoffJobService"
+312-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:94:13-66
+313            android:permission="android.permission.BIND_JOB_SERVICE" />
+313-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:95:13-69
+314        <service
+314-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:96:9-98:43
+315            android:name="com.onesignal.SyncService"
+315-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:97:13-53
+316            android:stopWithTask="true" />
+316-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:98:13-40
+317        <service
+317-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:99:9-101:72
+318            android:name="com.onesignal.SyncJobService"
+318-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:100:13-56
+319            android:permission="android.permission.BIND_JOB_SERVICE" />
+319-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:101:13-69
+320
+321        <activity
+321-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:103:9-105:75
+322            android:name="com.onesignal.PermissionsActivity"
+322-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:104:13-61
+323            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+323-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:105:13-72
+324
+325        <service android:name="com.onesignal.NotificationRestoreService" />
+325-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:9-76
+325-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:18-73
+326
+327        <receiver android:name="com.onesignal.BootUpReceiver" >
+327-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:9-114:20
+327-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:19-62
+328            <intent-filter>
+328-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:110:13-113:29
+329                <action android:name="android.intent.action.BOOT_COMPLETED" />
+329-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:17-79
+329-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:25-76
+330                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+330-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:17-82
+330-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:25-79
+331            </intent-filter>
+332        </receiver>
+333        <receiver android:name="com.onesignal.UpgradeReceiver" >
+333-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:9-119:20
+333-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:19-63
+334            <intent-filter>
+334-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:116:13-118:29
+335                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+335-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:17-84
+335-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:25-81
+336            </intent-filter>
+337        </receiver>
+338        <!--
+339             FirebaseMessagingService performs security checks at runtime,
+340             no need for explicit permissions despite exported="true"
+341        -->
+342        <service
+342-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+343            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+343-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+344            android:exported="true" >
+344-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+345            <intent-filter android:priority="-500" >
+345-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+345-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+346                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+346-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+346-->[com.google.firebase:firebase-messaging:17.3.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\876223c2e817a1852b0d501e1ecd67a9\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+347            </intent-filter>
+348        </service>
+349        <service
+349-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+350            android:name="com.google.firebase.components.ComponentDiscoveryService"
+350-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+351            android:exported="false" >
+351-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+352            <meta-data
+352-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+353                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+353-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+354                android:value="com.google.firebase.components.ComponentRegistrar" />
+354-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+355        </service>
+356
+357        <receiver
+357-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+358            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+358-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+359            android:exported="true"
+359-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+360            android:permission="com.google.android.c2dm.permission.SEND" >
+360-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+361            <intent-filter>
+361-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+362                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+362-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+362-->[com.onesignal:OneSignal:3.15.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\e2535b09d6b9944520983e2188859eba\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+363            </intent-filter>
+364        </receiver>
+365        <!--
+366             FirebaseInstanceIdService performs security checks at runtime,
+367             no need for explicit permissions despite exported="true"
+368        -->
+369        <service
+369-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+370            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+370-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+371            android:exported="true" >
+371-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+372            <intent-filter android:priority="-500" >
+372-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+372-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+373                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+373-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+373-->[com.google.firebase:firebase-iid:17.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\a9900485c4f60c522221b1ba3d9483a6\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+374            </intent-filter>
+375        </service>
+376
+377        <provider
+377-->[com.google.firebase:firebase-common:16.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\91cde0998bfaef66082f8dd2be5a51ec\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+378            android:name="com.google.firebase.provider.FirebaseInitProvider"
+378-->[com.google.firebase:firebase-common:16.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\91cde0998bfaef66082f8dd2be5a51ec\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+379            android:authorities="com.abc.sangiza.firebaseinitprovider"
+379-->[com.google.firebase:firebase-common:16.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\91cde0998bfaef66082f8dd2be5a51ec\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+380            android:exported="false"
+380-->[com.google.firebase:firebase-common:16.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\91cde0998bfaef66082f8dd2be5a51ec\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+381            android:initOrder="100" />
+381-->[com.google.firebase:firebase-common:16.0.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\91cde0998bfaef66082f8dd2be5a51ec\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+382
+383        <activity
+383-->[com.google.android.gms:play-services-base:16.0.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\20eab9a283547b307844e1e0f84aac4c\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+384            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+384-->[com.google.android.gms:play-services-base:16.0.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\20eab9a283547b307844e1e0f84aac4c\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+385            android:exported="false"
+385-->[com.google.android.gms:play-services-base:16.0.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\20eab9a283547b307844e1e0f84aac4c\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+386            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+386-->[com.google.android.gms:play-services-base:16.0.1] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\20eab9a283547b307844e1e0f84aac4c\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+387        <activity
+387-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:36:9-42:63
+388            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+388-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:37:13-74
+389            android:clearTaskOnLaunch="true"
+389-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:38:13-45
+390            android:screenOrientation="sensorLandscape"
+390-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:39:13-56
+391            android:stateNotNeeded="true"
+391-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:40:13-42
+392            android:theme="@style/zxing_CaptureTheme"
+392-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:41:13-54
+393            android:windowSoftInputMode="stateAlwaysHidden" />
+393-->[com.velitasali.tools.android:zxing:3.6.3] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\2f4153fe23b35181fbd2b9e80755d25e\jetified-zxing-3.6.3\AndroidManifest.xml:42:13-60
+394
+395        <meta-data
+395-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\51b5455bbda81628389415fe4faf0df5\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:11:9-13:43
+396            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+396-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\51b5455bbda81628389415fe4faf0df5\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:12:13-84
+397            android:value="GlideModule" />
+397-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Program Files\Android\Android Studio\gradle\gradle-6.5\caches\transforms-2\files-2.1\51b5455bbda81628389415fe4faf0df5\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:13:13-40
+398    </application>
+399
+400</manifest>

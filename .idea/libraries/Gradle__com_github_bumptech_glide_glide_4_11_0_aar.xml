@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:glide:4.11.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/4503f7bbf94e527e6a3f875534df7330/jetified-glide-4.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/4503f7bbf94e527e6a3f875534df7330/jetified-glide-4.11.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/4503f7bbf94e527e6a3f875534df7330/jetified-glide-4.11.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/4503f7bbf94e527e6a3f875534df7330/jetified-glide-4.11.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/4503f7bbf94e527e6a3f875534df7330/jetified-glide-4.11.0/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/4503f7bbf94e527e6a3f875534df7330/jetified-glide-4.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/ab4e7045168e2248b150dbf292e3a25a/transformed/jetified-glide-4.11.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/ab4e7045168e2248b150dbf292e3a25a/transformed/jetified-glide-4.11.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/ab4e7045168e2248b150dbf292e3a25a/transformed/jetified-glide-4.11.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.11.0/c7431a0f446d7be1d3e99914f1bfb8db403ae76a/glide-4.11.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.11.0/c7431a0f446d7be1d3e99914f1bfb8db403ae76a/glide-4.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.11.0/95d42bd1c43b39d58ad2c21355c2edcba1851cc1/glide-4.11.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.11.0/95d42bd1c43b39d58ad2c21355c2edcba1851cc1/glide-4.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

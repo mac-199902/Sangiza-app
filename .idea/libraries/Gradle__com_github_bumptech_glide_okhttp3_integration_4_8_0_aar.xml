@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:okhttp3-integration:4.8.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/2196cdebe100e7bdb08899b4a61c5cf3/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/2196cdebe100e7bdb08899b4a61c5cf3/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/transforms-2/files-2.1/2196cdebe100e7bdb08899b4a61c5cf3/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/28f2ee71078fd931b99f8d9d152f7ed5/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/28f2ee71078fd931b99f8d9d152f7ed5/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/28f2ee71078fd931b99f8d9d152f7ed5/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/51b5455bbda81628389415fe4faf0df5/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/51b5455bbda81628389415fe4faf0df5/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/gradle/gradle-6.5/caches/transforms-2/files-2.1/51b5455bbda81628389415fe4faf0df5/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/7235850ebd68308820c344758ea0d5bd/transformed/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/7235850ebd68308820c344758ea0d5bd/transformed/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/transforms-3/7235850ebd68308820c344758ea0d5bd/transformed/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/modules-2/files-2.1/com.github.bumptech.glide/okhttp3-integration/4.8.0/60e3940926c8711251f55855c53320ab03d49924/okhttp3-integration-4.8.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/modules-2/files-2.1/com.github.bumptech.glide/okhttp3-integration/4.8.0/60e3940926c8711251f55855c53320ab03d49924/okhttp3-integration-4.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Program Files/Android/gradle-6.5/caches/modules-2/files-2.1/com.github.bumptech.glide/okhttp3-integration/4.8.0/4458b86a34ceef6d1fb36a490d7608e6aaade8f4/okhttp3-integration-4.8.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/gradle-7.2-all/caches/modules-2/files-2.1/com.github.bumptech.glide/okhttp3-integration/4.8.0/4458b86a34ceef6d1fb36a490d7608e6aaade8f4/okhttp3-integration-4.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
